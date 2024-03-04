@@ -1,0 +1,79 @@
+body { 
+    margin: 0;
+}@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 25px;
+    background-color: black;
+    height: 20vh
+}
+main { 
+    background-color: darkgrey;
+    height: 100%;
+}
+section { 
+    padding: 25px;
+}
+section:nth-child(1) { 
+    background-color:rgb(23, 23, 24);
+    height: 80vh;
+    color: white;
+
+}
+section:nth-child(2) { 
+    background-color: rgb(23, 23, 24);
+    height: 80vh;
+    color: white;
+}
+section:nth-child(3) { 
+    background-color: rgb(23, 23, 24);
+    height: 80vh;
+    color: white;
+}
+footer { 
+    background-color: darkgrey;
+    height: 5vh;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+nav > a { 
+    padding: 5px;
+    font-family: 'Sixtyfour', sans-serif;
+    color: greenyellow;
+}
+
+header h1 { 
+   font-family: 'Workbench', sans-serif;
+   font-size: 48px;
+   color: greenyellow;
+}
+header h5 {
+    color: greenyellow;
+    font-size: 24px;
+}
+h3{
+  color:greenyellow;
+  font-size:58px;
+  position: relative;
+  margin-left: 200px;
+}
+ p {
+    font-size: 30px;
+    max-width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+#html>img {
+position:relative;
+margin-left: 800px;
+margin-top: -350px;
+}
